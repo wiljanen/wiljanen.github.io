@@ -84,6 +84,22 @@
 	</ul>
 	</div>
 	</li>
+	<li>
+	Let <em>k</em> be a field, let <em>&rho; : G &rarr; GL<sub>n</sub>(k)</em> be a representation of a group <em>G</em>, and let <em>r : k[G] &rarr; End(k<sup>n</sup>)</em> be the associated map defined on the group ring. If <em>r</em> is surjective, then <em>&rho;</em> is irreducible. If <em>k</em> is algebraically closed and <em>&rho;</em> is irreducible, then <em>r</em> is surjective.
+	<div>
+	<em>Proof:</em>
+	<ul>
+		<li>
+		<strong>Suppose <em>r</em> is surjective.</strong>
+		<p>Let <em>V</em> be a nontrivial invariant subspace of <em>k<sup>n</sup></em>. Let <em>v</em> be a non-zero element of <em>V</em>. Then, for any <em>w</em> in <em>V</em>, there is an endomorphism of <em>k<sup>n</sup></em> sending <em>v</em> to <em>w</em>. Since <em>r</em> is surjective, there is an element <em>a</em> in <em>k[G]</em> which maps to this endomorphism. Then, since <em>V</em> is an invariant subspace, we have that <em>a.v = w</em> is in <em>V</em>. Hence, <em>V = k<sup>n</sup></em>, and <em>&rho;</em> is irreducible.</p>
+		</li>
+		<li>
+		<strong>Suppose that <em>k</em> is algebraically closed and that <em>&rho;</em> is irreducible.</strong>
+		<p>Let <em>A</em> be the image of <em>r</em>. Then, <em>k<sup>n</sup></em> is an irreducible <em>A</em>-module. Let <em>f</em> be an element of <em>End<sub>A</sub>(k<sup>n</sup>)</em>. By Schur's lemma, there exists <em>&lambda;</em> in <em>k</em> such that <em>f(v) = &lambda;v</em> for all <em>v</em>. Hence, the natural map <em>k &rarr; End<sub>A</sub>(k<sup>n</sup>)</em> is an isomorphism. By the Jacobson density theorem, we find that the natural map <em>A &rarr; End<sub>k</sub>(k<sup>n</sup>)</em> is surjective as desired.</p> <p>(For a reference for the Jacobson density theorem, see Lang's Algebra, Chapter XVII, Theorem 3.2.)</p>
+		</li>
+	</ul>
+	</div>
+	</li>
 </ul>
 </section>
 </main>
